@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Zen+Antique+Soft&display=swap');
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 5rem;
+}
+
+.head {
+    display: flex;
+
+}
+
+div {
+
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.size {
+    font-size: 2rem;
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.align {
+    text-align: center;
+}
+
+.btn {
+    width: 10rem;
+    height: 3.5rem;
+    border: 0px solid;
+    border-radius: 0.5rem;
+    padding: 19px;
+    padding-left: 40px;
+    font-size: 1rem;
+    left: 45%;
+}
+
+.icons {
+    height: 10px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    filter: brightness(150%);
+}
+
+.btn:active {
+    transform: translate(0, 0.3rem);
+    /* box-shadow:  0 0.1rem rgba(255,255,255,0.70) */
+}
+
+.btnDiv {
+    text-align: center;
+}
+
+.para {
+    margin: 2rem;
+    font-size: 1.7rem;
+}
+
+/* navbar */
+.list-non-bullet {
+    list-style: none;
+    width: auto;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.5rem;
+}
+
+.navigation .link {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.nav-brand {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* navabar ends */
+
+.search-box {
+    border-radius: 1rem;
+}
+
+.text {
+    text-align: center;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+strong {
+    color: #3944F7;
+}
+
+span {
+    color: #3944F7;
+}
+
+button {
+
+    position: relative;
+    left: 50%;
+    display: flex;
+    border-radius: 0.5rem;
+    background: blue;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    height: 200px;
+
+}
+
+p {
+    color: gray;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    width: 90%;
+    height: 500px;
+    background: url(images/Goggle_imag.jpg) no-repeat center / cover;
+    border-radius: 1rem;
+}
+
+.right {
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(249, 250, 251);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 1.5rem;
+    margin-left: -50px;
+    margin-right: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left+.cont {
+    width: calc(80% - 300px)
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.right p,
+h1 {
+    margin: 10px 0px;
+
+}
+
+.right h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #3944F7;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 80%;
+        margin: 0;
+        margin-top: -50px;
+    }
+}
+footer {
+    background-color: rgba(29, 78, 216);
+    flex-direction: column;
+    margin: 0;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.footer .container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.box {
+    height: 100px;
+    /* border: 1px solid black; */
+    position: relative;
+    text-align: center;
+
+}
+
+img {
+    width: 30%;
+    padding: 10px;
+}
+
+.footer h4 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.icon {
+    list-style: none;
+    margin-top: 22%;
+    color: gray;
+    margin-right: 300px;
+    margin-top: 10px;
+
+}
+
+.footer h1 {
+    color: white;
+    font-weight: bold;
+}
+
